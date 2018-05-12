@@ -1,0 +1,35 @@
+/**app.wxss**/
+
+@import 'weui.wxss';
+@import 'iconfont.wxss';
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.hover_back_color{
+  background-color: #e8989a;
+}
+.hover_back_ccc{
+  background-color: #ccc;
+}
+
+/*轮播图  */
+.swiper {
+  height: 300rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+
+/* //文字占位 */
+.inline_block{
+  padding-left:15rpx;
+}

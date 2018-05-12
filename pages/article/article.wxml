@@ -1,0 +1,69 @@
+<!--pages/article/article.wxml-->
+<view class='article_box'>
+
+  <view class='header'>
+    <view class='title'>小兔子一只</view>
+    <view class='au_info'>
+      <text class="iconfont icon-zuozhe"></text><text>作者：大兔子</text><text class="iconfont icon-shizhong"></text><text>时间：2018-04-30 14:11:59</text><text class="iconfont icon-fenlei"></text><text>分类：动物</text>
+    </view>
+  </view>
+
+  <view class='body'>
+    材料
+兔腿，姜片，蒜片，八角，陈皮，红酒，柠檬汁，大蒜叶，糖，麻辣酱，老抽，水
+
+做法
+1、兔腿肉切块焯水处理干净。
+
+2、锅里油烧热放入姜片、蒜片、八角爆香后，倒入兔肉翻炒一下。
+
+3、放九制陈皮、红酒稍微煸炒一会。
+
+4、加入麻辣酱、老抽、水。
+
+5、大火煮开后小火慢慢焖至兔肉熟。
+
+6、最后加糖收汁，淋上些柠檬汁，撒上大蒜叶碎即可出锅装盘！酒香和柠檬香夹带着麻辣味的兔肉做好了，有没有想吃的！哈哈！
+
+相关麻辣兔  兔肉  麻辣  酒焖  红酒  
+
+<image src='https://ali.xinshipu.cn/20141206/original/1417836457111.jpg@288w_216h_50q_1e_1c.jpg'></image>
+  1、兔腿肉切块焯水处理干净。
+
+2、锅里油烧热放入姜片、蒜片、八角爆香后，倒入兔肉翻炒一下。
+
+3、放九制陈皮、红酒稍微煸炒一会。
+
+4、加入麻辣酱、老抽、水。
+
+5、大火煮开后小火慢慢焖至兔肉熟。
+
+6、最后加糖收汁，淋上些柠檬汁，撒上大蒜叶碎即可出锅装盘！酒香和柠檬香夹带着麻辣味的兔肉做好了，有没有想吃的！哈哈！
+  
+  
+  </view>
+
+  <view class='more'>
+    <view class="like"> <text class="iconfont icon-buoumaotubiao15"></text> 喜欢 | 56</view>
+  </view>
+
+  <view class='comment'>
+    <view class='list'>
+      <view class='comment_box'>
+        <image src='https://wx.qlogo.cn/mmopen/vi_32/h9P9aq5K9rHh263liaMerLEYWPXC55mG31gnb5rnOT5P5eF4QS9SMnD2cT95jTNmickUjPowp99jJCjzU3tNk0fA/0'></image>
+        <view class='speaker'> 流浪者</view>
+        <text class='content'>这么可爱的小兔子，一定很好吃 这么可爱的小兔子，一定很好吃这么可爱的小兔子，一定很好吃这么可爱的小兔子，一定很好吃这么可爱的小兔子，一定很好吃这么可爱的小兔子，一定很好吃</text>
+        <text class='c_time'>2018-04-30 21:10:25</text>
+      </view>
+    
+    </view>
+  
+  </view>
+
+  <!-- 购买按钮  -->
+  <view class='btn_buy' bindtap='get_goods' data-tid="1">
+    <text class="iconfont icon-iconset0308"></text>
+  </view>
+
+
+</view>

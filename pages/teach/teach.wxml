@@ -1,0 +1,52 @@
+<!--pages/teach/teach.wxml-->
+<view class='teach_box'>
+
+  <view class='class_box' data-tid="1" bindtap='goto'>
+    <view class='des'>
+      <text class='class_title'>零基础油画入门教学</text>
+      <text class='class_time'>课时：2小时</text>
+      <view class='is_joined'>已参加</view>
+    </view>
+    <text class='join_number'><text class='join_numbers'>1548</text>人已参加</text>
+  </view>
+
+  <view class='class_box back2' data-tid="1" bindtap='goto'>
+    <view class='des'>
+      <text class='class_title'>零基础油画入门教学</text>
+      <text class='class_time'>课时：2小时</text>
+      <view class='is_joined hide_join'>已参加</view>
+    </view>
+    <text class='join_number'><text class='join_numbers'>748</text>人已参加</text>
+  </view>
+
+  <view class='class_box back3' data-tid="1" bindtap='goto'>
+    <view class='des'>
+      <text class='class_title'>风景摄影入门教学</text>
+      <text class='class_time'>课时：2小时</text>
+       <view class='is_joined'>已参加</view> 
+    </view>
+    <text class='join_number'><text class='join_numbers'>1789</text>人已参加</text>
+  </view>
+
+  <view class='class_box back4' data-tid="1" bindtap='goto'>
+    <view class='des'>
+      <text class='class_title'>零基础油画入门教学</text>
+      <text class='class_time'>课时：2小时</text>
+      <view class='is_joined hide_join'>已参加</view>
+    </view>
+    <text class='join_number'><text class='join_numbers'>222</text>人已参加</text>
+  </view>
+  
+  <view class='class_box back5' data-tid="1" bindtap='goto'>
+    <view class='des'>
+      <text class='class_title'>零基础油画入门教学</text>
+      <text class='class_time'>课时：2小时</text>
+       <view class='is_joined'>已参加</view> 
+    </view>
+    <text class='join_number'><text class='join_numbers'>956</text>人已参加</text>
+  </view>
+
+  <view style='height:80rpx;'></view>
+
+</view>
+ 

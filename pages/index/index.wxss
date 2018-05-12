@@ -1,0 +1,150 @@
+/**index.wxss**/
+.news_box{
+  background-color: #ececec;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 25px;
+  font-size:13px;
+}
+
+.usenickred{
+  color: red;
+}
+
+
+/*菜单 menu  */
+.item_icon2{
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding-top: 20rpx;
+}
+.item_icon2 image{
+  width: 60rpx;
+  height: 60rpx;
+  display: block; 
+  margin: 2px auto;
+ }
+ .item_icon2 text{
+  color: #666;
+  font-size: 24rpx;
+  position: relative;
+  top: -20rpx;
+ }
+
+
+/*消息title  */
+.newsest{
+  margin-top: 15rpx;
+  text-align: center;
+  color: #666;
+  padding: 15rpx;
+  font-size: 28rpx;
+  border-bottom: 1px dotted #ccc;
+  background-color: #fff;
+}
+
+/*消息列表  */
+
+.dynamic{
+  padding: 0rpx 5rpx;
+  margin:20rpx 0rpx;
+}
+
+/* 动态  */
+.news_one_box{
+  background: #fff;
+  width: 100%;
+  margin: 10rpx auto;
+}
+.user_head{
+  padding: 15rpx 0rpx 0rpx 15rpx;
+  /* overflow: hidden; */
+}
+.user_head image{
+  float: left;
+  width: 86rpx;
+  height: 86rpx;
+  border:1px solid #ececec;
+  border-radius: 100%;
+}
+.user_name{
+  float: left;
+  width: 85%;
+  height: 50%;
+  font-size: 36rpx;
+  padding-left: 15rpx;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.send_time{
+  float: left; 
+  color: #ccc;
+  font-size: 24rpx;
+  padding-left: 15rpx;
+  width: 85%;
+}
+.wenzi{
+  clear: both;
+  margin-top: 15rpx;
+  font-size: 28rpx;
+  padding: 15rpx 15rpx 0rpx 15rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+
+.album1 image{
+  margin: 15rpx;
+}
+.album3{
+  padding: 15rpx;
+  margin: 5rpx auto;
+}
+.album3 image{
+  width: 32%;
+  height: 240rpx;
+  padding: 5rpx;
+}
+.box_footer{
+  color:#333;
+  font-size: 26rpx;
+  width: 100%;
+  height: 45rpx;
+  overflow: hidden;
+  padding-bottom: 15rpx;
+}
+.views{
+  padding-left: 20rpx;
+  float: left;
+}
+.zan{
+  float: right;
+  width: 125rpx;
+  text-align: center;
+}
+.xiang{
+  float: right;
+  width: 125rpx;
+  text-align: center;
+}

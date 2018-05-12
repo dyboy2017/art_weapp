@@ -1,0 +1,53 @@
+{
+  "pages": [
+    
+    "pages/index/index",
+    "pages/market/market",
+    "pages/good_detail/good_detail",
+    "pages/course/course",
+    "pages/teach/teach",
+    "pages/user/user",
+    "pages/article/article",
+    "pages/logs/logs"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#e8989a",
+    "navigationBarBackgroundColor": "#e8989a",
+    "navigationBarTitleText": "艺术空间",
+    "navigationBarTextStyle": "#fff",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "动态",
+        "iconPath": "pages/static/images/news.png"
+      },
+      {
+        "pagePath": "pages/market/market",
+        "text": "市场",
+        "iconPath": "pages/static/images/market.png"
+      },
+      {
+        "pagePath": "pages/teach/teach",
+        "text": "教学",
+        "iconPath": "pages/static/images/teach.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "pages/static/images/user.png"
+      }
+    ],
+    "selectedColor": "#e8989a"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false,
+  "enablePullDownRefresh": true
+}

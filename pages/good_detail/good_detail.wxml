@@ -1,0 +1,47 @@
+<!--pages/good_detail/good_detail.wxml-->
+<view class='goods_box'>
+
+  <!-- 轮播图  -->
+  <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000" circular="true">
+    <block wx:for="{{goods_pictures}}" wx:for-index="index">
+      <swiper-item>
+        <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>
+      </swiper-item>  
+    </block>
+  </swiper>
+  
+  <!--商品简介  -->
+  <view class='introduction'>
+     <view class='goods_title'>
+      麋鹿名字
+    </view>
+    <view class='price'>
+      <text style='font-size:24rpx;color:red;'>￥</text><text style="color:red;">680</text> <text class='pre_price'>￥700</text><image src='../static/images/share.png' style='width:60rpx;height:60rpx;background-color:#ececec;border-radius:100px;float:right'></image>
+    </view>
+    <view class='sold'>
+      已售
+    </view>
+  </view>
+
+  <!--作者/售卖人资料  -->
+  <view class='seller'>
+    <view>作者/售卖人：<text>小东</text></view>
+    <view>联系方式：<text>QQ1099718640</text></view>
+    <view>地点：<text class='place'>重庆市沙坪坝区</text></view>
+  </view>
+
+  <!--商品详情/介绍  -->
+  <text style='font-size:29rpx;padding-left:12rpx;'>商品详情：</text>
+  <view class='details'>
+    <text class='inline_block'></text>文字叙述介绍凭质保证书及京东商城发票，可享受全国联保服务（奢侈品、钟表除外；奢侈品、钟表由京东联系保修，享受法定三包售后服务），与您亲临商场选购的商品享受相同的质量保证。京东商城还为您提供具有竞争力的商品价格和运费政策，请您放心购买！ 
+
+注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！
+注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！
+  
+  </view>
+  
+<view class='footer'>
+    立即购买
+</view>
+
+</view>

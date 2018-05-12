@@ -1,0 +1,31 @@
+/* pages/course/course.wxss */
+
+.video_box{
+  padding: 4rpx;
+}
+.video_head{
+  padding: 0rpx 25rpx;
+}
+.video_title{
+  color: #e8989a; 
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.video_description{
+  font-size: 24rpx;
+  color: #ccc;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.btn_courses{
+  float: left;
+  color:#e8989a;
+  padding: 5rpx 15rpx;
+  margin: 15rpx 10rpx;
+  border: 1px solid #e8989a;
+  border-radius: 5rpx;
+  font-size: 24rpx;
+}

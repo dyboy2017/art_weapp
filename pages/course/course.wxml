@@ -1,0 +1,24 @@
+<!--pages/course/course.wxml-->
+<view class='course_box'>
+
+  <!--视频加载  -->
+  <view class="video_player">
+    <video id="myVideo" src="{{video_url}}" show-fullscreen-btn controls page-gesture="true" poster="http://wx1.sinaimg.cn/mw690/0060lm7Tly1fquks61eikj31hc0u0qe4.jpg" autoplay='true' custom-cache="{{false}}" style='width:100%'></video>
+  </view>
+  <!--视频信息  -->
+  <view class='video_head'>
+    <text class='video_title'>测试视频标题</text>
+    <view class='video_description'>
+        测试视频内容描述Bug & Tip tip:video组件是由客户端创建的原生组件，它的层级是最高的。测试视频内容描述Bug & Tip tip:video组件是由客户端创建的原生组件，它的层级是最高的。测试视频内容描述Bug & Tip tip:video组件是由客户端创建的原生组件，它的层级是最高的。测试视频内容描述Bug & Tip tip:video组件是由客户端创建的原生组件，它的层级是最高的。测试视频内容描述Bug & Tip tip:video组件是由客户端创建的原生组件，它的层级是最高的。
+    </view>
+    <view class='video_title'>目录</view>
+  </view>
+
+  <!--课程章节  -->
+
+
+  <view wx:for="{{courses}}" >
+     <view class='btn_courses' data-src="{{item}}" hover-class='hover_back_ccc' bindtap='playvideo'>第{{index+1}}节</view> 
+  </view>
+
+</view>

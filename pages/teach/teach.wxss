@@ -1,0 +1,61 @@
+/* pages/teach/teach.wxss */
+.teach_box{
+   background-color: #fff; 
+}
+.class_box{
+  border-radius:8px;
+  color: #fff;
+  margin: 10px auto;
+  width: 98%;
+  height:350rpx;
+  background-image: url("http://wx2.sinaimg.cn/mw690/0060lm7Tly1fqujnk3d3kj30ia0c7q47.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.des{
+  padding: 15rpx;
+  display: flex;
+  flex-direction: column;
+}
+.des .class_title{
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.des .class_time{
+  font-size: 32rpx;
+}
+.is_joined{
+  margin-top: 20rpx;
+  color: #00CD00;
+  font-size: 30rpx;
+  width: 100rpx;
+  border: 2rpx solid #00CD00;
+  padding: 2rpx 15rpx; 
+  font-weight: bold;
+}
+.join_number{
+  position: relative;
+  bottom: -65rpx;
+  right: -520rpx;
+  /* color: red; */
+  font-size: 30rpx;
+}
+
+.back2{
+  background-image: url("http://wx3.sinaimg.cn/mw690/0060lm7Tly1fqukl124hvj31hc0u0tkd.jpg");
+}
+
+.back3{
+  background-image: url("http://wx1.sinaimg.cn/mw690/0060lm7Tly1fqukof2m4uj31hc0u0gzj.jpg");
+}
+.back4{
+  background-image: url("http://wx1.sinaimg.cn/mw690/0060lm7Tly1fqukqp35cwj31hc0u0afr.jpg");
+}
+.back5{
+  background-image: url("http://wx1.sinaimg.cn/mw690/0060lm7Tly1fquks61eikj31hc0u0qe4.jpg");
+}
+.hide_join{
+  color:rgba(0, 0, 0, 0);
+  border: 0px;
+}

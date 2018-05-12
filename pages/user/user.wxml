@@ -1,0 +1,94 @@
+<!--pages/user/user.wxml-->
+<!--user head  -->
+<view class='user_box'>
+
+<view class='user_top_box'>
+  <image class='user_info_avatar' background-size="cover" src="{{userInfo.avatarUrl}}"></image>
+  <text class='user_nickname'>{{userInfo.nickName}}</text>
+</view>
+
+<!-- 我的订单  -->
+<view class='panel'>
+  <view class='weui-panel'>
+    <view class="weui-panel__hd">我的订单
+      <text class='right_title'>查看全部 ></text>
+    </view>
+    <view class="weui-panel__bd">
+       <view class='item_icon' hover-class='hover_back_color'>
+          <image src='../static/images/shouhuo.png'></image>
+          <text>待收货</text>
+       </view>
+        <view class='item_icon' hover-class='hover_back_color'>
+          <image src='../static/images/shouhuo.png'></image>
+          <text>待收货</text>
+       </view>
+        <view class='item_icon' hover-class='hover_back_color'>
+          <image src='../static/images/shouhuo.png'></image>
+          <text>待收货</text>
+       </view>
+        <view class='item_icon' hover-class='hover_back_color'>
+          <image src='../static/images/shouhuo.png'></image>
+          <text>待收货</text>
+       </view>
+        <view class='item_icon' hover-class='hover_back_color'>
+          <image src='../static/images/shouhuo.png'></image>
+          <text>待收货</text>
+       </view>
+    </view>
+  </view>
+</view>
+
+<!-- 地址管理  -->
+<view class='panel margin_top_25px'>
+  <view class='weui-panel'>
+    <view class="weui-panel__hd title_big">地址管理
+      <text class='right_title padding_right_25px'> ></text>
+    </view>
+  </view>
+</view>
+
+
+<!-- 菜单  -->
+<view class='panel margin_top_25px'>
+  <view class='weui-panel'>
+    <view class="weui-panel__bd">
+       <view class='item_icon2' hover-class='hover_back_color'>
+          <image src='../static/images/youhui.png'></image>
+          <text>优惠劵</text>
+       </view>
+        <view class='item_icon2' hover-class='hover_back_color'>
+          <image src='../static/images/VIP.png'></image>
+          <text>VIP</text>
+       </view>
+        <view class='item_icon2' hover-class='hover_back_color'>
+          <image src='../static/images/jifen.png'></image>
+          <text>积分</text>
+       </view>
+        <view class='item_icon2' hover-class='hover_back_color'>
+          <image src='../static/images/like.png'></image>
+          <text>关注</text>
+       </view>
+        <view class='item_icon2' hover-class='hover_back_color'>
+          <image src='../static/images/guest.png'></image>
+          <text>留言</text>
+       </view>
+
+       <view class='item_icon2' hover-class='hover_back_color'>
+          <image src='../static/images/article.png'></image>
+          <text>文章</text>
+       </view>
+        <view class='item_icon2' hover-class='hover_back_color'>
+          <image src='../static/images/wallet.png'></image>
+          <text>钱包</text>
+       </view>
+        <view class='item_icon2' hover-class='hover_back_color'>
+          <image src='../static/images/zuopin.png'></image>
+          <text>作品</text>
+       </view>
+    </view>
+  </view>
+</view>
+  <view class="weui-footer weui-footer_fixed-bottom">
+      <text class="weui-footer__text">Copyright © 2018-2020 艺术品空间</text>
+  </view>
+</view>

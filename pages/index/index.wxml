@@ -1,0 +1,124 @@
+<!--index.wxml-->
+<view class='news_box'>
+
+  <!-- 轮播图  -->
+  <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000" circular="true">
+    <view wx:for="{{pictures}}" wx:for-index="index">
+      <swiper-item>
+        <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>
+      </swiper-item>  
+    </view>
+  </swiper>
+
+
+  <!-- 菜单  -->
+  <view class='panel margin_top_25px'>
+    <view class='weui-panel'>
+      <view class="weui-panel__bd">
+          <view class='item_icon2' hover-class='hover_back_color'>
+            <image src='../static/images/VIP.png'></image>
+            <text>VIP</text>
+        </view>
+          <view class='item_icon2' hover-class='hover_back_color'>
+            <image src='../static/images/like.png'></image>
+            <text>关注</text>
+        </view>
+          <view class='item_icon2' hover-class='hover_back_color'>
+            <image src='../static/images/guest.png'></image>
+            <text>留言</text>
+        </view>
+        <view class='item_icon2' hover-class='hover_back_color'>
+            <image src='../static/images/article.png'></image>
+            <text>文章</text>
+        </view>
+          <view class='item_icon2' hover-class='hover_back_color'>
+            <image src='../static/images/wallet.png'></image>
+            <text>钱包</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 动态  -->
+  <view class='newsest'>
+    -   <text>最新动态</text>  -
+  </view>
+
+
+  <view class='dynamic'>
+    
+    <!--一个消息盒子  -->
+    <view class='news_one_box' data-aid="1" bindtap='getdetail'>
+        <view class='user_head'>
+          <image src='../static/images/user.jpg' ></image>
+          <text class="user_name">三岁</text>
+          <text class='send_time'>2018-5-5 17:16</text>
+        </view>
+        <view class='wenzi'>
+          文字卡上的撒了空间里的刷卡机拉开差距拉健康促进了空间课间操烧录卡坚持立刻就爱上了参加了几次困了就拉开距离困了就暗恋是会计处理空间上来看参加了科学家吃辣椒快乐的结束了卡机了空间上来看就成了恐惧拉开差距卢萨卡考场纪律学科基础练习骄傲了
+        </view>
+        <view class='album3'>
+          <image src='http://www.dyboy.cn/content/templates/dy_dux/images/random/22.jpg'></image>
+          <image src='http://www.dyboy.cn/content/templates/dy_dux/images/random/23.jpg'></image>
+          <image src='http://www.dyboy.cn/content/templates/dy_dux/images/random/24.jpg'></image>
+        </view>
+        <view class="box_footer">
+          <text class='views'><text class="iconfont icon-liulan"></text>浏览29次</text>
+          <view class='xiang'><text class="iconfont icon-xiangqing"></text>详情</view>
+          <view class='zan'><text class="iconfont icon-dianzan1"></text>赞</view>
+        </view>
+    </view>
+
+  <!-- 单张图片  -->
+    <view class='news_one_box' data-aid="2" bindtap='getdetail'>
+        <view class='user_head'>
+          <image src='../static/images/user.jpg' ></image>
+          <text class="user_name">三岁</text>
+          <text class='send_time'>2018-5-5 17:16</text>
+        </view>
+        <view class='wenzi'>
+          文字卡上的撒了空间里的刷卡机拉开差距拉健康促进了空间课间操烧录卡坚持立刻就爱上了参加了几次困了就拉开距离困了就暗恋是会计处理空间上来看参加了科学家吃辣椒快乐的结束了卡机了空间上来看就成了恐惧拉开差距卢萨卡考场纪律学科基础练习骄傲了
+        </view>
+        <view class='album1'>
+          <image src='http://www.dyboy.cn/content/templates/dy_dux/images/random/22.jpg'></image>
+        </view>
+        <view class="box_footer">
+          <text class='views'><text class="iconfont icon-liulan"></text>浏览29次</text>
+          <view class='xiang'><text class="iconfont icon-xiangqing"></text>详情</view>
+          <view class='zan'><text class="iconfont icon-dianzan1"></text>赞</view>
+        </view>
+    </view>
+
+     <!-- 没有图片  -->
+    <view class='news_one_box' data-aid="3" bindtap='getdetail'>
+        <view class='user_head'>
+          <image src='../static/images/user.jpg' ></image>
+          <text class="user_name">三岁</text>
+          <text class='send_time'>2018-5-5 17:16</text>
+        </view>
+        <view class='wenzi'>
+          文字卡上的撒了空间里的刷卡机拉开差距拉健康促进了空间课间操烧录卡坚持立刻就爱上了参加了几次困了就拉开距离困了就暗恋是会计处理空间上来看参加了科学家吃辣椒快乐的结束了卡机了空间上来看就成了恐惧拉开差距卢萨卡考场纪律学科基础练习骄傲了
+        </view>
+        <view class='album1'>
+
+        </view>
+        <view class="box_footer">
+          <text class='views'><text class="iconfont icon-liulan"></text>浏览29次</text>
+          <view class='xiang'><text class="iconfont icon-xiangqing"></text>详情</view>
+          <view class='zan'><text class="iconfont icon-dianzan1"></text>赞</view>
+        </view>
+    </view>
+
+
+
+
+  </view>
+  
+  <view style='height:80rpx'></view>
+  <view class="weui-loadmore" hidden="{{isHideLoadMore}}">
+    <view class="weui-loading"></view>
+    <view class="weui-loadmore__tips">正在加载</view>
+  </view>
+
+
+</view>

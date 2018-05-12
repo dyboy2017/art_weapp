@@ -1,0 +1,105 @@
+
+<view class='market_box'>
+
+  <!--搜索  -->
+  <view class="page__bd">
+        <view class="weui-search-bar">
+            <view class="weui-search-bar__form">
+                <view class="weui-search-bar__box">
+                    <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+                    <input type="text" class="weui-search-bar__input" placeholder="搜索" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" />
+                    <view class="weui-icon-clear" wx:if="{{inputVal.length > 0}}" bindtap="clearInput">
+                        <icon type="clear" size="14"></icon>
+                    </view>
+                </view>
+                <label class="weui-search-bar__label" hidden="{{inputShowed}}" bindtap="showInput">
+                    <icon class="weui-icon-search" type="search" size="14"></icon>
+                    <view class="weui-search-bar__text">搜索</view>
+                </label>
+            </view>
+            <view class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">取消</view>
+        </view>
+        <view class="weui-cells searchbar-result" wx:if="{{inputVal.length > 0}}">
+            <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">
+                    <view>实时搜索文本1</view>
+                </view>
+            </navigator>
+            <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">
+                    <view>实时搜索文本2</view>
+                </view>
+            </navigator>
+            <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">
+                    <view>实时搜索文本3</view>
+                </view>
+            </navigator>
+            <navigator url="../good_detail/good_detail" class="weui-cell" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">
+                    <view>实时搜索文本4</view>
+                </view>
+            </navigator>
+        </view>
+  </view>
+
+  <!--最新商品列表  -->
+  <view class='goods_box'>
+
+    <view class='good_box' hover-class='hover_back_color' bindtap='get_details' data-goodid="1">
+      <image src='http://img11.360buyimg.com/n1/s360x360_jfs/t17611/280/2138229619/269068/562c4776/5ae3ea4dN11ab48bb.jpg'></image>
+      <view class='good_title'>极品宝鹿</view>
+      <view class='good_price'>价格：<text class='price'>999.00</text></view>
+      <view class='good_view'>1502人看过</view>
+    </view>
+
+    <view class='good_box'>
+      <image src='http://img11.360buyimg.com/n1/s360x360_jfs/t17611/280/2138229619/269068/562c4776/5ae3ea4dN11ab48bb.jpg'></image>
+      <view class='good_title'>极品宝鹿</view>
+      <view class='good_price'>价格：<text class='price'>999.00</text></view>
+      <view class='good_view'>1502人看过</view>
+    </view>
+
+    <view class='good_box'>
+      <image src='http://img11.360buyimg.com/n1/s360x360_jfs/t17611/280/2138229619/269068/562c4776/5ae3ea4dN11ab48bb.jpg'></image>
+      <view class='good_title'>极品宝鹿</view>
+      <view class='good_price'>价格：<text class='price'>999.00</text></view>
+      <view class='good_view'>1502人看过</view>
+    </view>
+
+    <view class='good_box'>
+      <image src='http://img11.360buyimg.com/n1/s360x360_jfs/t17611/280/2138229619/269068/562c4776/5ae3ea4dN11ab48bb.jpg'></image>
+      <view class='good_title'>极品宝鹿</view>
+      <view class='good_price'>价格：<text class='price'>999.00</text></view>
+      <view class='good_view'>1502人看过</view>
+    </view>
+
+    <view class='good_box'>
+      <image src='http://img11.360buyimg.com/n1/s360x360_jfs/t17611/280/2138229619/269068/562c4776/5ae3ea4dN11ab48bb.jpg'></image>
+      <view class='good_title'>极品宝鹿</view>
+      <view class='good_price'>价格：<text class='price'>999.00</text></view>
+      <view class='good_view'>1502人看过</view>
+    </view>
+
+    <view class='good_box'>
+      <image src='http://img11.360buyimg.com/n1/s360x360_jfs/t17611/280/2138229619/269068/562c4776/5ae3ea4dN11ab48bb.jpg'></image>
+      <view class='good_title'>极品宝鹿</view>
+      <view class='good_price'>价格：<text class='price'>999.00</text></view>
+      <view class='good_view'>1502人看过</view>
+    </view>
+
+    <view class='good_box'>
+      <image src='http://img11.360buyimg.com/n1/s360x360_jfs/t17611/280/2138229619/269068/562c4776/5ae3ea4dN11ab48bb.jpg'></image>
+      <view class='good_title'>极品宝鹿</view>
+      <view class='good_price'>价格：<text class='price'>999.00</text></view>
+      <view class='good_view'>1502人看过</view>
+    </view>
+  
+  </view>
+
+
+
+
+
+
+</view>
